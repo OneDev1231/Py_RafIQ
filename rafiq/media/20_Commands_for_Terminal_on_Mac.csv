@@ -1,0 +1,22 @@
+﻿Command,Definition,Sample Usage
+cd,Change directory to the specified path.,"cd Documents changes directory to the ""Documents"" folder."
+ls,List the contents of the current directory.,ls -al shows a detailed list of all files and folders in the current directory.
+mkdir,Create a new directory with the specified name.,"mkdir new_folder creates a new directory named ""new_folder""."
+touch,Create a new file with the specified name.,"touch new_file.txt creates a new file named ""new_file.txt""."
+rm,Remove a file or directory.,"rm file.txt deletes a file named ""file.txt""."
+rmdir,Remove a directory (only works if the directory is empty).,"rmdir old_folder removes an empty directory named ""old_folder""."
+cp,Copy a file or directory from one location to another.,"cp file.txt /Users/username/Documents copies a file named ""file.txt"" to the Documents folder."
+mv,Move a file or directory from one location to another.,"mv file.txt /Users/username/Documents moves a file named ""file.txt"" to the Documents folder."
+cat,Concatenate and display the contents of a file.,"cat file.txt displays the contents of the ""file.txt"" file."
+less,Display the contents of a file one page at a time.,"less file.txt displays the contents of ""file.txt"" one page at a time."
+grep,Search for a pattern in a file or output.,"grep ""search term"" file.txt searches for the term ""search term"" in the ""file.txt"" file."
+ps,Display a list of running processes.,ps aux shows a list of all running processes.
+kill,Send a signal to stop a running process.,kill 1234 stops the process with the ID number 1234.
+chmod,Change the permissions of a file or directory.,"chmod 755 file.txt changes the permissions of ""file.txt"" to allow the owner to read, write, and execute, and others to read and execute."
+sudo,Run a command with superuser (administrator) privileges.,"sudo rm file.txt deletes the ""file.txt"" file with administrator privileges."
+ssh,Connect to a remote server via SSH (Secure Shell) protocol.,ssh username@remote-server.com connects to a remote server using SSH protocol.
+scp,Copy files between two remote servers via SSH protocol.,"scp file.txt username@remote-server.com:/path/to/destination copies the ""file.txt"" file to a remote server at the specified path."
+top,Display real-time information about system performance and running processes.,top displays real-time information about running processes and system performance.
+curl,Transfer data from or to a server using various protocols.,"curl http://www.example.com retrieves the contents of a webpage at ""www.example.com""."
+tar,Compress and decompress files and directories.,"tar -czvf archive.tar.gz folder compresses the ""folder"" directory into a gzip-compressed archive named ""archive.tar.gz""."
+zip,Compress,
